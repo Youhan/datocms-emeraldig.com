@@ -1,5 +1,5 @@
 export default {
-  mode: 'spa',
+  ssr: false,
   /*
    ** Headers of the page
    */
@@ -9,6 +9,12 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     ],
+    link:[
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -30,8 +36,6 @@ export default {
    ** Nuxt.js modules
    */
   modules: [
-    // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://github.com/nuxt-community/dotenv-module
@@ -42,6 +46,9 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+
+  // buildModules: ['@nuxtjs/tailwindcss'],
+
   /*
    ** Build configuration
    */

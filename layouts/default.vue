@@ -1,40 +1,36 @@
 <template>
   <div>
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-brand">
-          <nuxt-link class="navbar-item" to="/">
-            <img src="/bulma.png" alt="Logo" />
-          </nuxt-link>
-          <span class="navbar-burger burger" v-on:click="toggleNavbar">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
-        <div :class="['navbar-menu', navbarOpen && 'is-active']">
-          <div class="navbar-end">
-            <nuxt-link class="navbar-item is-active is-size-5 has-text-weight-semibold" to="/">
-              Home
-            </nuxt-link>
-          </div>
-        </div>
-      </div>
-    </nav>
 
     <nuxt />
 
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma - Blog theme</strong> by
-          <a href="https://gonzalojs.com">Gonzalo Gutierrez</a>. Based on the
-          <a href="http://jigsaw-blog-staging.tighten.co/">jigsaw-blog</a>. The
-          source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <footer class="bg-white">
+      <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+        <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+          <div class="px-5 py-2">
+            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+              About
+            </a>
+          </div>
+
+          <div class="px-5 py-2">
+            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+              Press
+            </a>
+          </div>
+
+          <div class="px-5 py-2">
+            <a href="#" class="text-base text-gray-500 hover:text-gray-900">
+              Partners
+            </a>
+          </div>
+        </nav>
+        <p class="mt-8 text-center text-base text-gray-400">
+          &copy; 2020 emerald-ig.com, Inc. All rights reserved.
         </p>
       </div>
     </footer>
+
   </div>
 </template>
 
@@ -53,8 +49,3 @@ export default {
 }
 </script>
 
-<style>
-nav.navbar {
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06) !important;
-}
-</style>
