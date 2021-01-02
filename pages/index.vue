@@ -50,10 +50,10 @@
                 <!-- <span class="block text-indigo-600">Cosmetics business</span> -->
               </h1>
               <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                In the meanwhile please contact: +90 536 043 73 54 or +1 347 991 14 76
+                In the meanwhile please contact: +1 347 991 14 76
               </p>
               <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                Kucukbakkal koy mah, sel vili sk, no. 4, iç kapi no.48, atasehir, istanbul
+                300-136 Market Street Winnipeg, MB, Canada R3B 0P3
               </p>
             </div>
           </div>
